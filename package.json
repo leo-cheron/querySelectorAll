@@ -1,0 +1,13 @@
+{
+  "name": "querySelectorAll",
+  "version": "1.0",
+  "description": "querySelectorAll as $ shortcut",
+  "main": "index.js",
+  "repository": "@gnu/querySelectorAll",
+  "keywords": [
+    "querySelectorAll",
+    "$",
+    "shortcut"
+  ],
+  "license": "MIT"
+}
