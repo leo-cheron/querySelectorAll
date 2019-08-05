@@ -5,13 +5,13 @@ A simple $ shortcut for querySelectorAll function
 ## Installation
 
 ```
-npm install @gnu/querySelectorAll
+npm i queryselectorall-alias --save
 ```
 
 ## Usage
 
 ```
-import @gnu/querySelectorAll
+import 'queryselectorall-alias';
 
 const domElements = $('.classname');
 ```
