@@ -1,13 +1,16 @@
 {
-  "name": "querySelectorAll",
-  "version": "1.0",
-  "description": "querySelectorAll as $ shortcut",
+  "name": "queryselectorall-alias",
+  "version": "1.0.0",
+  "description": "querySelectorAll as $ alias",
   "main": "index.js",
-  "repository": "@gnu/querySelectorAll",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/mrgnou/querySelectorAll.git"
+  },
   "keywords": [
     "querySelectorAll",
     "$",
-    "shortcut"
+    "alias"
   ],
   "license": "MIT"
 }
