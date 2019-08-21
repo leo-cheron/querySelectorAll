@@ -8,9 +8,9 @@ A simple $ shortcut for querySelectorAll function
 npm i queryselectorall-alias --save
 ```
 
-## Usage
+## Implementation
 
-```
+```javascript
 import 'queryselectorall-alias';
 
 const domElements = $('.classname');
