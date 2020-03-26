@@ -8,7 +8,7 @@ const queryselector = (selector, context = document) => {
     return result;
 };
 
-if (!Node.prototype.$) {
+if (typeof (Node) !== 'undefined' && !Node.prototype.$) {
 	window.$ = Node.prototype.$ = NodeList.prototype.$ = function(selector, context = document) {
 		return queryselector(selector, context);
 	};
